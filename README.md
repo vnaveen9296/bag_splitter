@@ -7,7 +7,7 @@ You can use this program to split into smaller bags. Right now, it only writes i
 I believe this helps for the following reasons
 * Downloading a large bag is very time consuming. Multiple smaller bags can be downloaded in parallel.
 * Processing can also be parallelized when we have access to multiple smaller bags
-* Smaller bags can be directly used as part of TF get_input_data pipeline or one can create different kinds of records (as per one's conventions) out of these smaller bag files beforehand
+* Smaller bags can be directly used as part of your TensorFlow data_input pipeline or one can create different kinds of records (as per one's conventions) out of these smaller bag files beforehand
 
 
 
